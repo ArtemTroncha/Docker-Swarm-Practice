@@ -29,5 +29,10 @@ Check network using ``` docker network ls```
 ```docker service create --name result -p 5001:80 --network backend bretfisher/examplevotingapp_result```
 
 ## Result
-[localhost:80](https://localhost:80)
+Voiting page - [https://localhost:80](https://localhost:80)
 <br/><img width="426" alt="Voting app" src="https://user-images.githubusercontent.com/70330884/221369316-198e1664-0544-4beb-ada9-01ce222d36ff.png">
+
+Result page - [https://localhost:5001](https://localhost:5001)
+<br/><img width="897" alt="Result page src="https://user-images.githubusercontent.com/70330884/221369691-4eba3328-b1d0-48de-a61a-c8cab7ac6519.png">
+
+
